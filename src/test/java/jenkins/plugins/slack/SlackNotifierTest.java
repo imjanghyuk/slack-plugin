@@ -69,7 +69,6 @@ public class SlackNotifierTest extends TestCase {
             return response;
         }
 
-        @Override
         public boolean publish(String s, String s1, List<File> list, String fileUploadUserToken ) {
             return response;
         }
